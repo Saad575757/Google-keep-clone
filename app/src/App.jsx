@@ -5,35 +5,36 @@ import Footer from "./Footer";
 import CreateNote from "./CreateNote";
 import Note from "./Note";
 
-const App = () =>{
-  const[addItem, setAddItem] = useState([]);
+const App = () => {
+  const [addItem, setAddItem] = useState([]);
 
-  const addNote = (note) =>{
-    
+  const addNote = (note) => {
+
     // alert('I am clicked');
-    setAddItem((prevData)=>{
-      return(
+    setAddItem((prevData) => {
+      return (
         [...prevData, note]
       )
     });
     console.log(note);
   };
-  return(
+  return (
     <>
-    <Header />
-    <CreateNote passNote={addNote}/>
-    {addItem.map((val, index)=>{
-      return<Note 
-      key={index}
-      id={index}
-      title={val.title}
-      content={val.content}
-      />
-    })}
-    <Footer />
+      <Header />
+      <CreateNote passNote={addNote} />
+      {addItem.map((val, index) => {
+        return <Note
+          key={index}
+          id={index}
+          title={val.title}
+          content={val.content}
+        />
+      })
+      }
+      <Footer />
     </>
   )
 
 }
- 
+
 export default App;
