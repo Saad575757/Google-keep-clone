@@ -30,14 +30,22 @@ const CreateNote = (props) => {
             content:"",
         });
     };
+    const [expand, setExpand]=useState(false);
+    const expandIt=()=>{
+        setExpand(true);
+    }
+    const backtoNormal=()=>{
+        setExpand(false);
+    }
+    
 
     return (
         <>
-            <div className="main_note">
+            <div className="main_note" onDoubleClick={backtoNormal}>
                 <form className="form">
-                    <input type="text" placeholder="Title" name="title" value={note.title} onChange={InputEvent} className="text_input" autoComplete="off"></input>
-                    <textarea cols="30" rows="10" placeholder="Write a note..." name="content" value={note.content} onChange={InputEvent} className="textarea"></textarea>
-                    <button className="button" onClick={addEvent}>Add</button>
+                   { expand?<input type="text" placeholder="Title" name="title" value={note.title} onChange={InputEvent} className="text_input" autoComplete="off"></input>:null }
+                    <textarea cols="30" rows="10" placeholder="Write a note..." name="content" value={note.content} onChange={InputEvent} onClick={expandIt} className="textarea"></textarea>
+                   {expand?  <button className="button" onClick={addEvent}>Add</button> : null}
                 </form>
             </div>
         </>
