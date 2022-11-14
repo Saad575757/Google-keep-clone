@@ -1,4 +1,5 @@
 .note{
+    
     margin-top: 20px;
     margin-left: 40px;
     height: 150px;
@@ -16,3 +17,12 @@
   }
   
   .button:hover {background-color: #e7e7e7;}
+
+  .heading{
+    font-display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .content{
+    font-display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }

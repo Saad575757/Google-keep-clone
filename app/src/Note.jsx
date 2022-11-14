@@ -2,6 +2,9 @@ import React from "react";
 import './Note.css';
 
 const Note = (props) => {
+    const deleteNote =() =>{
+        props.deleteItem(props.id);
+    }
     return (
         <>
             <div className="note">
@@ -10,7 +13,7 @@ const Note = (props) => {
                 <p className="content">
                     {props.content}
                 </p>
-                <button className="button">Delete</button>
+                <button className="button" onClick={deleteNote}>Delete</button>
             </div>
         </>
     );

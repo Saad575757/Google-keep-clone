@@ -2,3 +2,6 @@
     height: 300px;
     width: 1024px;
 }
+.note_box{
+    display: flex;
+}

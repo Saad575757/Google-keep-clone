@@ -15,6 +15,8 @@
   border-radius: 4px;
   background-color: white;
   resize: none;
+  font-display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .text_input{
     width: 100%;
@@ -25,6 +27,8 @@
   border-radius: 4px;
   background-color: white;
   resize: none;
+  font-display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .button {
     background-color: white;

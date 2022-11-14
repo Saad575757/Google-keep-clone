@@ -24,6 +24,10 @@ const CreateNote = (props) => {
 
     const addEvent = () => {
         props.passNote(note);
+        setnote({ 
+            title:"",
+            content:"",
+        });
     };
 
     return (
