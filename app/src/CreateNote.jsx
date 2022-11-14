@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './CreateNote.css';
 
 const CreateNote = (props) => {
+    
     const [note, setnote] = useState({ 
         title:"",
         content:"",
