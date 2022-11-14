@@ -11,3 +11,6 @@ Add Notes
 Delete Notes
 
 The Notes shares by mapping technique with repect of arrays so their id is worthly.
+
+Also if I do click It will show proper form otherwise default is only text area(write a note)
+After I click on textarea, it will give full form , If I do double click it will return default text area only.
