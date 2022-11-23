@@ -1,7 +1,9 @@
 .body{
     height: 300px;
     width: 1024px;
+    
 }
 .note_box{
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
 }

@@ -6,6 +6,7 @@
     width: 300px;
     background-color: white;
     box-shadow: 5px 5px 8px rgba(218, 203, 203, 0.877), 10px 10px 8px rgb(228, 212, 212), 15px 15px 8px rgba(179, 169, 169, 0.589);
+    margin-bottom: 40px;
 }
 .button {
     background-color: white;

@@ -30,7 +30,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <CreateNote passNote={addNote} />
+      <CreateNote className="create_note_box" passNote={addNote} />
       <div className="note_box">
       {addItem.map((val, index) => {
         return <Note
