@@ -3,5 +3,5 @@
     width: 1024px;
 }
 .note_box{
-    display: flex;
+    display: inline-flex;
 }
