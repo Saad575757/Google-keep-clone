@@ -1,19 +1,21 @@
-.header{
+.header {
     height: 60px;
     width: 1024;
     background-color: white;
     border: 0.5px solid;
     display: flex;
-    
-   
+
+
 }
-.img{
+
+.img {
     height: 40px;
     width: 60px;
     margin-left: 80px;
     margin-top: 10px;
 }
-.name{
+
+.name {
     font-size: 20px;
     color: brown;
     margin-top: 20px;

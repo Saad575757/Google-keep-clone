@@ -18,12 +18,12 @@ const App = () => {
     });
     console.log(note);
   };
-  const onDelete =(id)=>{
-    setAddItem((prevdata)=>
-    prevdata.filter((currdata,index)=>{
-      return index !== id;
+  const onDelete = (id) => {
+    setAddItem((prevdata) =>
+      prevdata.filter((currdata, index) => {
+        return index !== id;
 
-    })
+      })
     )
 
   }
@@ -32,19 +32,19 @@ const App = () => {
       <Header />
       <CreateNote className="create_note_box" passNote={addNote} />
       <div className="note_box">
-      {addItem.map((val, index) => {
-        return <Note
-          key={index}
-          id={index}
-          title={val.title}
-          content={val.content}
-          deleteItem={onDelete}
+        {addItem.map((val, index) => {
+          return <Note
+            key={index}
+            id={index}
+            title={val.title}
+            content={val.content}
+            deleteItem={onDelete}
 
-        />
-        
-      })
+          />
 
-      }
+        })
+
+        }
       </div>
       <Footer />
     </>

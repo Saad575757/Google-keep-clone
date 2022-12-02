@@ -1,13 +1,14 @@
-.main_note{
-    margin-top: 30px;
-    margin-left: 380px;
-    height: 210px;
-    width: 500px;
-    background-color: white;
-    box-shadow: 5px 5px 8px rgba(218, 203, 203, 0.877), 10px 10px 8px rgb(228, 212, 212), 15px 15px 8px rgba(179, 169, 169, 0.589);
+.main_note {
+  margin-top: 30px;
+  margin-left: 380px;
+  height: 210px;
+  width: 500px;
+  background-color: white;
+  box-shadow: 5px 5px 8px rgba(218, 203, 203, 0.877), 10px 10px 8px rgb(228, 212, 212), 15px 15px 8px rgba(179, 169, 169, 0.589);
 }
-.textarea{
-    width: 100%;
+
+.textarea {
+  width: 100%;
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
@@ -17,12 +18,13 @@
   resize: none;
   font-display: block;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+
 }
-.text_input{
-    width: 100%;
-    height: 30px;
-    padding: 12px 20px;
+
+.text_input {
+  width: 100%;
+  height: 30px;
+  padding: 12px 20px;
   box-sizing: border-box;
   border: 2px solid white;
   border-radius: 4px;
@@ -31,14 +33,17 @@
   font-display: block;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .button {
-    background-color: white;
-    color: black;
-    border: 2px solid white;
-    width:100%;
-    height: 30px;
-    cursor: pointer;
-    
-  }
-  
-  .button:hover {background-color: #e7e7e7;}
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+
+}
+
+.button:hover {
+  background-color: #e7e7e7;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import './Note.css';
 
 const Note = (props) => {
-    const deleteNote =() =>{
+    const deleteNote = () => {
         props.deleteItem(props.id);
     }
     return (

@@ -1,29 +1,33 @@
-.note{
-    
-    margin-top: 20px;
-    margin-left: 40px;
-    height: 170px;
-    width: 300px;
-    background-color: white;
-    box-shadow: 5px 5px 8px rgba(218, 203, 203, 0.877), 10px 10px 8px rgb(228, 212, 212), 15px 15px 8px rgba(179, 169, 169, 0.589);
-    margin-bottom: 40px;
-}
-.button {
-    background-color: white;
-    color: black;
-    border: 2px solid white;
-    height: 20px;
-    cursor: pointer;
-    
-  }
-  
-  .button:hover {background-color: #e7e7e7;}
+.note {
 
-  .heading{
-    font-display: block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .content{
-    font-display: block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
+  margin-top: 20px;
+  margin-left: 40px;
+  height: 170px;
+  width: 300px;
+  background-color: white;
+  box-shadow: 5px 5px 8px rgba(218, 203, 203, 0.877), 10px 10px 8px rgb(228, 212, 212), 15px 15px 8px rgba(179, 169, 169, 0.589);
+  margin-bottom: 40px;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  height: 20px;
+  cursor: pointer;
+
+}
+
+.button:hover {
+  background-color: #e7e7e7;
+}
+
+.heading {
+  font-display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content {
+  font-display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
